@@ -5,3 +5,41 @@
 .votinginfominor {
   display: none;
 }
+
+
+.thingstodominor{
+  padding: 30px;
+  display: none;
+}
+
+.thingstodoadult{
+  padding: 30px;
+  display: none;
+}
+
+.dothisboth {
+
+  background-color: yellow;
+}
+
+.dothisadult {
+
+  background-color: yellow;
+}
+
+.dothisminor {
+  display: none;
+  background-color: yellow;
+}
+
+.dothisadultplain {
+  background-color: transparent;
+
+
+}
+
+.dothisminorplain {
+    display: none;
+  background-color: transparent;
+
+}
