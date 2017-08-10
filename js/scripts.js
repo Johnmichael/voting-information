@@ -3,8 +3,9 @@ $(document).ready(function(){
     event.preventDefault();
     var age = parseInt($("#age").val());
     if (age >= 18) {
-      alert("hey");
+      $(".votinginfo21").show();
+    } else {
+    $(".votinginfominor").show();
     }
-    $("#oldenough").text(age);
   });
 });
